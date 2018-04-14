@@ -1,0 +1,12 @@
+.exp-holder {
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+.exp-holder video,
+.exp-holder canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

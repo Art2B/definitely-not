@@ -1,0 +1,16 @@
+{
+  "name": "definitely-not",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/scripts/index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 1234 --no-cache --out-dir dist/dev",
+    "build": "parcel build src/index.html --out-dir dist/build"
+  },
+  "author": "Art2B",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "parcel-bundler": "^1.7.0"
+  }
+}
